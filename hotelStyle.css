@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ body{
+    display: grid;
+   
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    /* grid-template-rows: repeat(6, fr1); */
+   
+    /* background-color: blue; */
+ }
+ 
+ 
+ #navbar{
+    grid-row: 1 / 2;
+    grid-column: 1 / 10;
+    background-color: #513645;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+ }
+ #mainPicture{
+    font-size: 65px !important;
+ }
+ 
+ 
+ #Home {
+ 
+ 
+    flex: 1;
+    text-align: center;
+ }
+ 
+ 
+ #Contact{
+    font-size: 18px;
+    align-self: flex-end;
+    padding-right: 2px;
+ 
+ 
+ }
+ 
+ 
+ #mainPicture{
+ 
+ 
+    grid-row: 2/4;
+    grid-column: 1/10;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("/Users/diegoguzman/Downloads/resume_projects/conceptHotelWebsite/images/pexels-roberto-nickson-2525903.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+ #mainPicture div{
+    color: white;
+ }
+ 
+ 
+ 
+ 
+ #Benefits{
+    grid-row: 4/6;
+    grid-column: 1/10;
+ 
+ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #513645;
+ }
+ 
+ 
+ #locationText h1{
+    color: peachpuff;
+    margin-bottom: 30px ;   
+ }
+ 
+ 
+ #locationText p{
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;    
+ }
+ 
+ 
+ #foodText h1{
+    color: peachpuff;
+    margin-bottom: 30px;   
+ }
+ 
+ 
+ #foodText p{
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;    
+ }
+ 
+ 
+ #tourText h1{
+    color: peachpuff;
+    margin-bottom: 30px;   
+ }
+ 
+ 
+ #tourText p{
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;   
+ }
+ 
+ 
+ footer{
+    grid-row: 6/7;
+    grid-column: 1/10;   
+ 
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #513645;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18;
+    font-weight: 500;
+    color: white;
+    border-top: 1px solid grey;
+ 
+ 
+ }
+ 
+ 
+ #Contact:hover{
+    text-decoration: underline;
+ }
+ 
+ 
+ @media screen and (max-width: 500px){
+ 
+ 
+    #Benefits{
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+ 
+ 
+    #locationText h1{
+        margin: 5px;
+    }
+ 
+ 
+    #foodText h1{
+        margin: 5px;
+    }
+ 
+ 
+    #tourText h1{
+        margin: 5px;
+    }
+ 
+ 
+    footer{
+        margin-top: 5px none;
+    }
+ }
+ 
