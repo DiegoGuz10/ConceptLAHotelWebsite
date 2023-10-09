@@ -86,17 +86,21 @@
     margin-top: 50px;
     /* margin-left: 50px; */
     font-size: 20px;
+    text-align: center;
  }
  
  
  form > input{
     margin-top: 10px;
+    text-align: center;
     /* margin-left: 50px; */
  }
  
  
  form textarea{
     margin-top: 10px;
+    text-indent: 0.2em;
+    line-height: 2em;
     /* margin-left: 50px; */
  }
  
