@@ -101,6 +101,7 @@
     margin-top: 10px;
     text-indent: 0.2em;
     line-height: 2em;
+    resize: none;
     /* margin-left: 50px; */
  }
  
