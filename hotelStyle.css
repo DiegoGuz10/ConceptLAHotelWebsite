@@ -25,14 +25,13 @@
     display: flex;
     align-items: center;
  }
+
+
  #mainPicture{
     font-size: 65px !important;
  }
  
- 
  #Home {
- 
- 
     flex: 1;
     text-align: center;
  }
