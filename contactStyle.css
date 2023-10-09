@@ -31,8 +31,6 @@
  
  
  #Home {
- 
- 
     flex: 1;
     text-align: center;
  }
@@ -42,12 +40,7 @@
     font-size: 18px;
     align-self: flex-end;
     padding-right: 2px;
- 
- 
  }
- 
- 
- 
  
  #contactForms{
     grid-row: 2/7;
@@ -60,9 +53,14 @@
  
  form{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    text-align: center; */
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
  }
  
@@ -86,31 +84,33 @@
  
  form > label{
     margin-top: 50px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     font-size: 20px;
  }
  
  
  form > input{
     margin-top: 10px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
  }
  
  
  form textarea{
     margin-top: 10px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
  }
  
  
  button{
     margin-top: 50px;
-    align-self: flex-start;
-    margin-left: 50px;
-    border-radius: 18%;
+    align-self: center;
+    /* margin-left: 50px; */
+    /* border-radius: 18%; */
     font-size: 20px;
     padding: 7px;
-    border: 2px solid grey ;
+    /* border: 2px solid grey ; */
+    border-radius: 15px; 
+    border: 1px solid silver;
  }
  
  
@@ -121,14 +121,18 @@
  
  
  input:nth-of-type(1){
-    width: 85vw;
+    width: 40vw;
     height: 3.5vh;
+    border-radius: 15px; 
+    border: 1px solid silver;
  }
  
  
  input:nth-of-type(2){
-    width: 85vw;
+    width: 40vw;
     height: 3.5vh;
+    border-radius: 15px; 
+    border: 1px solid silver;
  }
  
  
@@ -137,8 +141,10 @@
  textarea{
     /* width: 1250px;
     height: 125px; */
-    width: 85vw;
+    width: 40vw;
     height: 14vh;
+    border-radius: 15px; 
+    border: 1px solid silver;
     /* vertical-align: text-top !important; */
  }
  
@@ -159,6 +165,7 @@
     font-weight: 500;
     color: white;
     border-top: 1px solid grey;
+    
  
  
  }
